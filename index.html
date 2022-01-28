@@ -1,0 +1,31 @@
+<html>
+
+<head>
+  <title>jQuery Zoomin Zoomout</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="modal-wrap" id="modal-demo">
+    <div class="modal-container">
+      <div class="modal-header">
+        <button class="close-modal">&times;</button>
+      </div>
+      <div class="modal-content">
+        <div>
+          <button id="in"><i class="fa fa-plus" aria-hidden="true"></i></i></button>
+        </div>
+        <br>
+        <div>
+          <button id="out"><i class="fa fa-minus" aria-hidden="true"></i></button>
+        </div>
+        <img src="prftimage.jfif" width="300px" height="200px" id="img">
+      </div>
+    </div>
+  </div>
+  <img src='prftimage.jfif' alt="main image" id="open-modal" class="triger-modal" data-triger="modal-demo">
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js" type="text/javascript"></script>
+  <script src="index.js"></script>
+</body>
+</html>
